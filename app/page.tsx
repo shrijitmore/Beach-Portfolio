@@ -102,61 +102,67 @@ export default function Home() {
           <div className="toc-row">
             <a
               className="toc-item"
-              href="https://samantha.flashpact.in/"
+              href="https://crocko.xyz"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="toc-num">01</div>
               <div className="toc-body">
+                <div className="toc-eyebrow">Feature &middot; SaaS &middot; Live</div>
+                <h3 className="toc-title">
+                  Crocko &mdash; AI <em>review&nbsp;engine</em>
+                </h3>
+                <p className="toc-blurb">
+                  Grow Google reviews for local businesses with AI-drafted, anti-detection
+                  reviews &mdash; multi-LLM fallback, zero fabrication.
+                </p>
+                <span className="toc-cta">Read &rarr;</span>
+              </div>
+            </a>
+
+            <div className="toc-divide" />
+
+            <a
+              className="toc-item"
+              href="https://influensa.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="toc-num">02</div>
+              <div className="toc-body">
+                <div className="toc-eyebrow">Feature &middot; AI &middot; Creators</div>
+                <h3 className="toc-title">
+                  Influensa &mdash; <em>content&nbsp;intelligence</em>
+                </h3>
+                <p className="toc-blurb">
+                  Trend discovery, 4-agent script pipeline, per-scene editing, and
+                  voice coaching for solo creators.
+                </p>
+                <span className="toc-cta">Read &rarr;</span>
+              </div>
+            </a>
+
+            <div className="toc-divide" />
+
+            <a
+              className="toc-item"
+              href="https://samantha.flashpact.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="toc-num">03</div>
+              <div className="toc-body">
                 <div className="toc-eyebrow">Feature &middot; AI &middot; Live</div>
                 <h3 className="toc-title">
-                  A live AI <em>hotel&nbsp;receptionist</em>
+                  Samantha &mdash; AI <em>hotel&nbsp;receptionist</em>
                 </h3>
                 <p className="toc-blurb">
                   LangGraph orchestration, RAG-grounded answers, zero hallucinations
-                  &mdash; on the call at samantha.flashpact.in.
+                  &mdash; live at samantha.flashpact.in.
                 </p>
                 <span className="toc-cta">Read &rarr;</span>
               </div>
             </a>
-
-            <div className="toc-divide" />
-
-            <a className="toc-item" href="#projects">
-              <div className="toc-num">02</div>
-              <div className="toc-body">
-                <div className="toc-eyebrow">Feature &middot; Web3 &middot; &apos;25</div>
-                <h3 className="toc-title">
-                  On <em>Solana, EVM</em> &amp; the contracts in&nbsp;between
-                </h3>
-                <p className="toc-blurb">
-                  Wallet adapters, smart contracts, and notes from Breakpoint Abu Dhabi.
-                </p>
-                <span className="toc-cta">Read &rarr;</span>
-              </div>
-            </a>
-
-            <div className="toc-divide" />
-
-            <div className="toc-item issue">
-              <div className="toc-num">XXVI</div>
-              <div className="toc-body">
-                <div className="toc-eyebrow">Volume &middot; May 2026</div>
-                <h3 className="toc-title">
-                  Shrijit Quarterly &mdash; <em>the field guide</em>
-                </h3>
-                <div className="toc-issue-meta">
-                  <div className="barcode" />
-                  <div className="price-row">
-                    <span>2.5 YRS</span>
-                    <span>&middot;</span>
-                    <span>IN PROD</span>
-                    <span>&middot;</span>
-                    <span>&apos;26</span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </aside>
@@ -382,45 +388,34 @@ export default function Home() {
           </div>
 
           <div className="proj-list">
+            <a className="proj-row" href="https://crocko.xyz" target="_blank" rel="noopener noreferrer">
+              <div className="inline-img" style={{ backgroundImage: "url('/proj-dashboard.png')" }} />
+              <div className="num">01<em>/03</em></div>
+              <div className="title-wrap"><h3 className="title">Crocko &mdash; AI <em>Review Engine</em></h3></div>
+              <div className="year">LIVE &middot; MMXXVI</div>
+              <div className="tags">Next.js &middot; NestJS &middot; MongoDB &middot; Gemini &middot; Cloud Run</div>
+              <div className="open" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
+              </div>
+            </a>
+
+            <a className="proj-row" href="https://influensa.xyz" target="_blank" rel="noopener noreferrer">
+              <div className="inline-img" style={{ backgroundImage: "url('/proj-digital-twin.png')" }} />
+              <div className="num">02<em>/03</em></div>
+              <div className="title-wrap"><h3 className="title">Influensa &mdash; AI <em>Content Intelligence</em></h3></div>
+              <div className="year">LIVE &middot; MMXXVI</div>
+              <div className="tags">AI Pipeline &middot; Voice Coach &middot; Trend Discovery &middot; Scripts</div>
+              <div className="open" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
+              </div>
+            </a>
+
             <a className="proj-row" href="https://samantha.flashpact.in/" target="_blank" rel="noopener noreferrer">
               <div className="inline-img" style={{ backgroundImage: "url('/proj-hotel.png')" }} />
-              <div className="num">01<em>/04</em></div>
+              <div className="num">03<em>/03</em></div>
               <div className="title-wrap"><h3 className="title">Samantha &mdash; AI <em>Hotel Receptionist</em></h3></div>
               <div className="year">LIVE &middot; MMXXV</div>
               <div className="tags">LangGraph &middot; RAG &middot; OpenAI &middot; React &middot; PostgreSQL</div>
-              <div className="open" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
-              </div>
-            </a>
-
-            <a className="proj-row" href="#">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-dashboard.png')" }} />
-              <div className="num">02<em>/04</em></div>
-              <div className="title-wrap"><h3 className="title">Web3 <em>Wallet Integration</em></h3></div>
-              <div className="year">MMXXV</div>
-              <div className="tags">Solana.js &middot; ethers.js &middot; Solidity &middot; React</div>
-              <div className="open" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
-              </div>
-            </a>
-
-            <a className="proj-row" href="#">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-digital-twin.png')" }} />
-              <div className="num">03<em>/04</em></div>
-              <div className="title-wrap"><h3 className="title">Industrial <em>AI Assistant</em></h3></div>
-              <div className="year">MMXXV</div>
-              <div className="tags">LangChain &middot; RAG &middot; Vector DB &middot; Celery &middot; Redis</div>
-              <div className="open" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
-              </div>
-            </a>
-
-            <a className="proj-row" href="#">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-hotel.png')" }} />
-              <div className="num">04<em>/04</em></div>
-              <div className="title-wrap"><h3 className="title">Swypee &mdash; Pet <em>SaaS Platform</em></h3></div>
-              <div className="year">MMXXIV</div>
-              <div className="tags">React &middot; React Native &middot; Node &middot; Mongo &middot; K8s</div>
               <div className="open" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
               </div>
@@ -430,21 +425,71 @@ export default function Home() {
           <div className="section-head reveal" style={{ marginTop: 80 }}>
             <div className="num">03b</div>
             <div className="head-mid">
-              <div className="eyebrow">Side Experiments</div>
-              <h2>Other <em>pours</em> from the bar</h2>
+              <div className="eyebrow">Deep Dives</div>
+              <h2>The <em>full pour</em></h2>
             </div>
-            <div className="right">05 spreads</div>
+            <div className="right">03 spreads</div>
           </div>
 
           <div className="spreads">
             <article className="spread left">
-              <div className="spread-folio">No. <span>01</span> &mdash; Featured</div>
+              <div className="spread-folio">No. <span>01</span> &mdash; SaaS</div>
+              <figure className="spread-media">
+                <span className="badge amber">SaaS &middot; Live</span>
+                <img src="/proj-dashboard.png" alt="Crocko AI Review Platform" />
+              </figure>
+              <div className="spread-body">
+                <div className="num">01<em>/03</em></div>
+                <div className="kind">2026 &middot; Review Intelligence</div>
+                <h3>
+                  <span className="word">Crocko&nbsp;</span>
+                  <span className="word">&mdash;&nbsp;</span>
+                  <span className="word"><em>AI-powered reviews</em></span>
+                </h3>
+                <p className="tagline">SaaS for local businesses to grow Google reviews. QR scan &rarr; quick feedback &rarr; AI drafts a human-sounding review. Anti-detection engine with style randomization and multi-LLM fallback (Gemini &rarr; Claude &rarr; OpenAI).</p>
+                <div className="tags">
+                  <span>Next.js</span><span>NestJS</span><span>MongoDB</span><span>Cloud Run</span>
+                </div>
+                <a className="readmore" href="https://crocko.xyz" target="_blank" rel="noopener noreferrer">
+                  <span>Visit crocko.xyz</span>
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
+                </a>
+              </div>
+            </article>
+
+            <article className="spread right">
+              <div className="spread-folio">No. <span>02</span> &mdash; Creator AI</div>
+              <figure className="spread-media">
+                <span className="badge amber">AI &middot; Live</span>
+                <img src="/proj-digital-twin.png" alt="Influensa Content Intelligence" />
+              </figure>
+              <div className="spread-body">
+                <div className="num">02<em>/03</em></div>
+                <div className="kind">2026 &middot; Content Intelligence</div>
+                <h3>
+                  <span className="word">Influensa&nbsp;</span>
+                  <span className="word">&mdash;&nbsp;</span>
+                  <span className="word"><em>your AI content brain</em></span>
+                </h3>
+                <p className="tagline">Trend discovery from YouTube &amp; Reddit, 4-agent script pipeline in your voice (Hinglish, regional), per-scene editing with AI reasoning, and voice coaching that scores confidence, energy &amp; filler words.</p>
+                <div className="tags">
+                  <span>AI Pipeline</span><span>Voice Coach</span><span>Trends</span><span>Scripts</span>
+                </div>
+                <a className="readmore" href="https://influensa.xyz" target="_blank" rel="noopener noreferrer">
+                  <span>Visit influensa.xyz</span>
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
+                </a>
+              </div>
+            </article>
+
+            <article className="spread left">
+              <div className="spread-folio">No. <span>03</span> &mdash; AI Agent</div>
               <figure className="spread-media">
                 <span className="badge amber">AI &middot; Live</span>
                 <img src="/proj-hotel.png" alt="Samantha AI Hotel Receptionist" />
               </figure>
               <div className="spread-body">
-                <div className="num">01<em>/05</em></div>
+                <div className="num">03<em>/03</em></div>
                 <div className="kind">2025 &middot; AI Receptionist</div>
                 <h3>
                   <span className="word">Samantha&nbsp;</span>
@@ -452,113 +497,12 @@ export default function Home() {
                   <span className="word">a&nbsp;hotel&nbsp;</span>
                   <span className="word"><em>that doesn&apos;t sleep</em></span>
                 </h3>
-                <p className="tagline">LangGraph orchestration, RAG-grounded answers, zero hallucinations. Live with real users at samantha.flashpact.in.</p>
+                <p className="tagline">LangGraph orchestration, RAG-grounded answers, zero hallucinations. Live with real users at samantha.flashpact.in. Built end-to-end with a two-person team.</p>
                 <div className="tags">
                   <span>LangGraph</span><span>RAG</span><span>OpenAI</span><span>React</span>
                 </div>
                 <a className="readmore" href="https://samantha.flashpact.in/" target="_blank" rel="noopener noreferrer">
                   <span>Visit the site</span>
-                  <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
-                </a>
-              </div>
-            </article>
-
-            <article className="spread right">
-              <div className="spread-folio">No. <span>02</span> &mdash; On-chain</div>
-              <figure className="spread-media">
-                <span className="badge">Web3 &middot; &apos;25</span>
-                <img src="/proj-dashboard.png" alt="Web3 Wallet Integration" />
-              </figure>
-              <div className="spread-body">
-                <div className="num">02<em>/05</em></div>
-                <div className="kind">2025 &middot; Smart Contracts</div>
-                <h3>
-                  <span className="word">Wallets&nbsp;</span>
-                  <span className="word">that&nbsp;don&apos;t&nbsp;</span>
-                  <span className="word"><em>lie about gas</em></span>
-                </h3>
-                <p className="tagline">Solana &amp; EVM wallet adapters wired into production React. On-chain interactions you can actually trust.</p>
-                <div className="tags">
-                  <span>Solana.js</span><span>ethers.js</span><span>Solidity</span><span>TypeScript</span>
-                </div>
-                <a className="readmore" href="#">
-                  <span>Read more</span>
-                  <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
-                </a>
-              </div>
-            </article>
-
-            <article className="spread left">
-              <div className="spread-folio">No. <span>03</span> &mdash; Industrial</div>
-              <figure className="spread-media">
-                <span className="badge">Backend &middot; Prod</span>
-                <img src="/proj-digital-twin.png" alt="Industrial Backend" />
-              </figure>
-              <div className="spread-body">
-                <div className="num">03<em>/05</em></div>
-                <div className="kind">2025 &middot; Real-time SaaS</div>
-                <h3>
-                  <span className="word">Kafka&nbsp;</span>
-                  <span className="word">pipelines&nbsp;for&nbsp;</span>
-                  <span className="word"><em>20&ndash;30 plants</em></span>
-                </h3>
-                <p className="tagline">Event-driven backend processing thousands of sensor events per second &mdash; tenant-isolated, schema-safe, and quietly bulletproof.</p>
-                <div className="tags">
-                  <span>Kafka</span><span>Celery</span><span>PostgreSQL</span><span>K8s</span>
-                </div>
-                <a className="readmore" href="#">
-                  <span>Read more</span>
-                  <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
-                </a>
-              </div>
-            </article>
-
-            <article className="spread right">
-              <div className="spread-folio">No. <span>04</span> &mdash; SaaS</div>
-              <figure className="spread-media">
-                <span className="badge">SaaS &middot; &apos;24</span>
-                <img src="/abt3.png" alt="Swypee Pet Platform" />
-              </figure>
-              <div className="spread-body">
-                <div className="num">04<em>/05</em></div>
-                <div className="kind">2024 &middot; Pet Platform</div>
-                <h3>
-                  <span className="word">Swypee&nbsp;</span>
-                  <span className="word">&mdash;&nbsp;</span>
-                  <span className="word"><em>sub-500ms</em>&nbsp;</span>
-                  <span className="word">vector&nbsp;search</span>
-                </h3>
-                <p className="tagline">Full-stack React Native + Node platform. Vector similarity returning results in under half a second &mdash; on a cup of coffee budget.</p>
-                <div className="tags">
-                  <span>React Native</span><span>Node.js</span><span>MongoDB</span><span>Kubernetes</span>
-                </div>
-                <a className="readmore" href="#">
-                  <span>Read more</span>
-                  <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
-                </a>
-              </div>
-            </article>
-
-            <article className="spread left">
-              <div className="spread-folio">No. <span>05</span> &mdash; Field Notes</div>
-              <figure className="spread-media">
-                <span className="badge">Community</span>
-                <img src="/abt1.png" alt="Breakpoint Abu Dhabi" />
-              </figure>
-              <div className="spread-body">
-                <div className="num">05<em>/05</em></div>
-                <div className="kind">2024 &middot; Travel &amp; Notes</div>
-                <h3>
-                  <span className="word">Notes&nbsp;</span>
-                  <span className="word">from&nbsp;</span>
-                  <span className="word"><em>Breakpoint Abu Dhabi</em></span>
-                </h3>
-                <p className="tagline">A weekend deep in the Solana ecosystem &mdash; on-chain trends, dev tooling, and the slow rise of EVM bridges.</p>
-                <div className="tags">
-                  <span>Solana</span><span>Community</span><span>Travel</span>
-                </div>
-                <a className="readmore" href="#">
-                  <span>Read the entry</span>
                   <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
                 </a>
               </div>
