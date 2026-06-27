@@ -389,33 +389,27 @@ export default function Home() {
 
           <div className="proj-list">
             <a className="proj-row" href="https://crocko.xyz" target="_blank" rel="noopener noreferrer">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-crocko.png')" }} />
               <div className="num">01<em>/03</em></div>
               <div className="title-wrap"><h3 className="title">Crocko &mdash; AI <em>Review Engine</em></h3></div>
-              <div className="year">LIVE &middot; MMXXVI</div>
-              <div className="tags">Next.js &middot; NestJS &middot; MongoDB &middot; Gemini &middot; Cloud Run</div>
+              <div className="inline-img" style={{ backgroundImage: "url('/proj-crocko.png')" }} />
               <div className="open" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
               </div>
             </a>
 
             <a className="proj-row" href="https://influensa.xyz" target="_blank" rel="noopener noreferrer">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-influensa.png')" }} />
               <div className="num">02<em>/03</em></div>
               <div className="title-wrap"><h3 className="title">Influensa &mdash; AI <em>Content Intelligence</em></h3></div>
-              <div className="year">LIVE &middot; MMXXVI</div>
-              <div className="tags">AI Pipeline &middot; Voice Coach &middot; Trend Discovery &middot; Scripts</div>
+              <div className="inline-img" style={{ backgroundImage: "url('/proj-influensa.png')" }} />
               <div className="open" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
               </div>
             </a>
 
             <a className="proj-row" href="https://samantha.flashpact.in/" target="_blank" rel="noopener noreferrer">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-samantha.png')" }} />
               <div className="num">03<em>/03</em></div>
               <div className="title-wrap"><h3 className="title">Samantha &mdash; AI <em>Hotel Receptionist</em></h3></div>
-              <div className="year">LIVE &middot; MMXXV</div>
-              <div className="tags">LangGraph &middot; RAG &middot; OpenAI &middot; React &middot; PostgreSQL</div>
+              <div className="inline-img" style={{ backgroundImage: "url('/proj-samantha.png')" }} />
               <div className="open" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none"><path d="M5 19L19 5M19 5H8M19 5V16" strokeWidth="1.5" strokeLinecap="round" /></svg>
               </div>
