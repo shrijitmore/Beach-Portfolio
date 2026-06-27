@@ -389,7 +389,7 @@ export default function Home() {
 
           <div className="proj-list">
             <a className="proj-row" href="https://crocko.xyz" target="_blank" rel="noopener noreferrer">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-dashboard.png')" }} />
+              <div className="inline-img" style={{ backgroundImage: "url('/proj-crocko.png')" }} />
               <div className="num">01<em>/03</em></div>
               <div className="title-wrap"><h3 className="title">Crocko &mdash; AI <em>Review Engine</em></h3></div>
               <div className="year">LIVE &middot; MMXXVI</div>
@@ -400,7 +400,7 @@ export default function Home() {
             </a>
 
             <a className="proj-row" href="https://influensa.xyz" target="_blank" rel="noopener noreferrer">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-digital-twin.png')" }} />
+              <div className="inline-img" style={{ backgroundImage: "url('/proj-influensa.png')" }} />
               <div className="num">02<em>/03</em></div>
               <div className="title-wrap"><h3 className="title">Influensa &mdash; AI <em>Content Intelligence</em></h3></div>
               <div className="year">LIVE &middot; MMXXVI</div>
@@ -411,7 +411,7 @@ export default function Home() {
             </a>
 
             <a className="proj-row" href="https://samantha.flashpact.in/" target="_blank" rel="noopener noreferrer">
-              <div className="inline-img" style={{ backgroundImage: "url('/proj-hotel.png')" }} />
+              <div className="inline-img" style={{ backgroundImage: "url('/proj-samantha.png')" }} />
               <div className="num">03<em>/03</em></div>
               <div className="title-wrap"><h3 className="title">Samantha &mdash; AI <em>Hotel Receptionist</em></h3></div>
               <div className="year">LIVE &middot; MMXXV</div>
@@ -436,7 +436,7 @@ export default function Home() {
               <div className="spread-folio">No. <span>01</span> &mdash; SaaS</div>
               <figure className="spread-media">
                 <span className="badge amber">SaaS &middot; Live</span>
-                <img src="/proj-dashboard.png" alt="Crocko AI Review Platform" />
+                <img src="/proj-crocko.png" alt="Crocko AI Review Platform" />
               </figure>
               <div className="spread-body">
                 <div className="num">01<em>/03</em></div>
@@ -461,7 +461,7 @@ export default function Home() {
               <div className="spread-folio">No. <span>02</span> &mdash; Creator AI</div>
               <figure className="spread-media">
                 <span className="badge amber">AI &middot; Live</span>
-                <img src="/proj-digital-twin.png" alt="Influensa Content Intelligence" />
+                <img src="/proj-influensa.png" alt="Influensa Content Intelligence" />
               </figure>
               <div className="spread-body">
                 <div className="num">02<em>/03</em></div>
@@ -486,7 +486,7 @@ export default function Home() {
               <div className="spread-folio">No. <span>03</span> &mdash; AI Agent</div>
               <figure className="spread-media">
                 <span className="badge amber">AI &middot; Live</span>
-                <img src="/proj-hotel.png" alt="Samantha AI Hotel Receptionist" />
+                <img src="/proj-samantha.png" alt="Samantha AI Hotel Receptionist" />
               </figure>
               <div className="spread-body">
                 <div className="num">03<em>/03</em></div>
